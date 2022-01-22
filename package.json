@@ -1,6 +1,6 @@
 {
 	"name": "p-unique",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "repeated invoke will create the unique promise or an pending promise",
 	"main": "dist/p-unique.js",
 	"module": "dist/p-unique.esm.js",
