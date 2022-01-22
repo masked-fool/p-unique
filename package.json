@@ -1,0 +1,35 @@
+{
+	"name": "p-unique",
+	"version": "1.0.0",
+	"description": "repeated invoke will create the unique promise or an pending promise",
+	"main": "dist/p-unique.js",
+	"module": "dist/p-unique.esm.js",
+	"umd": "dist/p-unique.umd.js",
+	"types": "types/index.d.ts",
+	"scripts": {
+		"build": "rollup -c",
+		"build:types": "tsc"
+	},
+	"keywords": [
+		"promise",
+		"debounce",
+		"promise-controller"
+	],
+	"author": "Navi",
+	"license": "MIT",
+	"repository": {
+		"type": "git"
+	},
+	"dependencies": {
+		"licia": "^1.34.0"
+	},
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^19.0.2",
+		"@rollup/plugin-json": "^4.1.0",
+		"@rollup/plugin-typescript": "^8.2.1",
+		"eslint": "^7.32.0",
+		"rollup-plugin-node-resolve": "^5.2.0",
+		"tslib": "^2.2.0",
+		"typescript": "^4.3.2"
+	}
+}
